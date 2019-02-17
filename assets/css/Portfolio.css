@@ -1,0 +1,168 @@
+#froggerGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: black
+}
+#rpgGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: chocolate;
+}
+#triviaGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: darkolivegreen
+}
+#stanfordGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: red
+}
+#rpsGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: skyblue
+}
+a {
+    text-decoration-line: none
+}
+#froggerLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 102px;
+    bottom: 25%;
+}
+#rpgLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 89px;
+    bottom: 25%;
+}
+#triviaLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 85px;
+    bottom: 25%;
+}
+#stanfordLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 54px 10px 53px;
+    bottom: 25%;
+}
+#rpsLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 57px;
+    bottom: 25%;
+}
+.content1 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
+.content2 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
+.content3 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    clear: left;
+    margin: 12px;
+}
+.content4 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
+.content5 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    clear: left;
+    margin: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .content1, .content2, .content3, .content4, .content5, #froggerGif, #rpgGif, #stanfordGif, #triviaGif, #rpsGif {
+        width: 335px;
+        max-width: 100%;
+        margin-right: 12px;
+        
+    }
+    #froggerLink {
+        padding: 10px 41.7%;
+    }
+    #rpgLink {
+        padding: 10px 37.69%;
+    }  
+    #stanfordLink {
+        padding: 10px 27.1%;
+    }
+    #rpsLink {
+        padding: 10px 27.9%;
+    }
+    #triviaLink {
+        padding: 10px 36.4%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content1, .content2, .content3, .content4, .content5, #froggerGif, #rpgGif, #stanfordGif, #triviaGif, #rpsGif {
+        height: 260px;
+        width: 574px;
+        max-width: 100%;
+        margin-right: 12px;
+    }
+    #froggerLink {
+        padding: 10px 45.2%;
+        float: inherit;
+        bottom: 20%;
+    }
+    #rpgLink {
+        padding: 10px 42.6%;
+        float: inherit;
+        bottom: 20%;
+    }  
+    #stanfordLink {
+        padding: 10px 35.9%;
+        float: inherit;
+        bottom: 20%;
+    }
+    #rpsLink {
+        padding: 10px 36.5%;
+        float: inherit;
+        bottom: 20%;
+    }
+    #triviaLink {
+        padding: 10px 41.9%;
+        float: inherit;
+        bottom: 20%;
+    }
+}
