@@ -130,9 +130,8 @@ hr {
     @media screen and (max-width: 640px) {
         img {
             height: auto;
-            width: 574px;
             max-width: 100%;
-            margin-right: 12px;
+            margin: 12px 12px 12px 0px;
         }
         .navbar {
             margin: 0px;

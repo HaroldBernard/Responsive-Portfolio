@@ -31,51 +31,18 @@
 a {
     text-decoration-line: none
 }
-#froggerLink {
-    width: 260px;
+#froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink {
     background-color: #4aaaa5;
     color: white;
     font-size: 18px;
     position: relative;
-    padding: 10px 102px;
-    bottom: 25%;
+    padding: 10px 0px;
+    float: inherit;
+    bottom: 20%;
+    text-align: center;
+    width: 100%;
 }
-#rpgLink {
-    width: 260px;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    padding: 10px 89px;
-    bottom: 25%;
-}
-#triviaLink {
-    width: 260px;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    padding: 10px 85px;
-    bottom: 25%;
-}
-#stanfordLink {
-    width: 260px;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    padding: 10px 54px 10px 53px;
-    bottom: 25%;
-}
-#rpsLink {
-    width: 260px;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    padding: 10px 57px;
-    bottom: 25%;
-}
+
 .content1 {
     height: 161px;
     width: 261px;
@@ -116,7 +83,14 @@ a {
         margin-right: 12px;
         
     }
-    #froggerLink {
+    #froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink {
+        padding: 10px 0px;
+        float: inherit;
+        bottom: 20%;
+        text-align: center;
+        width: 100%
+    }
+    /* #froggerLink {
         padding: 10px 41.7%;
     }
     #rpgLink {
@@ -130,7 +104,7 @@ a {
     }
     #triviaLink {
         padding: 10px 36.4%;
-    }
+    } */
 }
 
 @media screen and (max-width: 640px) {
@@ -138,31 +112,13 @@ a {
         height: 260px;
         width: 574px;
         max-width: 100%;
-        margin-right: 12px;
+        margin: 12px 0px 0px 0px;
     }
-    #froggerLink {
-        padding: 10px 45.2%;
+    #froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink {
+        padding: 10px 0px;
         float: inherit;
         bottom: 20%;
-    }
-    #rpgLink {
-        padding: 10px 42.6%;
-        float: inherit;
-        bottom: 20%;
-    }  
-    #stanfordLink {
-        padding: 10px 35.9%;
-        float: inherit;
-        bottom: 20%;
-    }
-    #rpsLink {
-        padding: 10px 36.5%;
-        float: inherit;
-        bottom: 20%;
-    }
-    #triviaLink {
-        padding: 10px 41.9%;
-        float: inherit;
-        bottom: 20%;
+        text-align: center;
+        width: 100%
     }
 }
